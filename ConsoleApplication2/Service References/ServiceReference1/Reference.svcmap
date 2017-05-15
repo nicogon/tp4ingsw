@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f9734f1e-cec6-4be6-8c67-d539d14a609e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://sc-mdegano.rightnowdemo.com/cgi-bin/sc_mdegano.cfg/services/soap?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="soap.xsd" MetadataType="Schema" ID="d8db7295-8fd7-4d38-8384-06040b06e6b2" SourceId="1" SourceUrl="http://sc-mdegano.rightnowdemo.com/cgi-bin/sc_mdegano.cfg/services/soap?xsd=objects" />
+    <MetadataFile FileName="soap1.xsd" MetadataType="Schema" ID="19c1aa87-7373-47b7-8eb9-98d8efc93c5f" SourceId="1" SourceUrl="http://sc-mdegano.rightnowdemo.com/cgi-bin/sc_mdegano.cfg/services/soap?xsd=generic" />
+    <MetadataFile FileName="soap2.xsd" MetadataType="Schema" ID="3abfdf67-537f-4f9a-82fa-cccd70f9b48c" SourceId="1" SourceUrl="http://sc-mdegano.rightnowdemo.com/cgi-bin/sc_mdegano.cfg/services/soap?xsd=metadata" />
+    <MetadataFile FileName="soap3.xsd" MetadataType="Schema" ID="65be67c0-c846-49a4-9bec-e3442bebd10c" SourceId="1" SourceUrl="http://sc-mdegano.rightnowdemo.com/cgi-bin/sc_mdegano.cfg/services/soap?xsd=faults" />
+    <MetadataFile FileName="soap4.xsd" MetadataType="Schema" ID="4d41d881-3465-44ed-be51-e38f892bfd16" SourceId="1" SourceUrl="http://sc-mdegano.rightnowdemo.com/cgi-bin/sc_mdegano.cfg/services/soap?xsd=messagestyped" />
+    <MetadataFile FileName="RightNow.wsdl" MetadataType="Wsdl" ID="07e3417b-28d6-40f6-aad4-4fde8edcfa76" SourceId="1" SourceUrl="http://sc-mdegano.rightnowdemo.com/cgi-bin/sc_mdegano.cfg/services/soap?wsdl" />
+    <MetadataFile FileName="soap5.xsd" MetadataType="Schema" ID="7d1c2ea7-c89d-4bea-a99f-bd01cf863fd5" SourceId="1" SourceUrl="http://sc-mdegano.rightnowdemo.com/cgi-bin/sc_mdegano.cfg/services/soap?xsd=nullfields" />
+    <MetadataFile FileName="soap6.xsd" MetadataType="Schema" ID="82260d05-5c02-4d61-98b2-e456f14241b8" SourceId="1" SourceUrl="http://sc-mdegano.rightnowdemo.com/cgi-bin/sc_mdegano.cfg/services/soap?xsd=base" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
